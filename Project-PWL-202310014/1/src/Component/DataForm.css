@@ -1,0 +1,12 @@
+.wrapper {
+    height: 100vh;
+}
+
+.fromList {
+    width: 350px;
+    height: min-content;
+    padding: 4em 2em;
+    background-color: #fff;
+    border-radius: 2em;
+    box-shadow: rgba(169, 190, 211, 0.2) 0px 8px 24px;
+}
