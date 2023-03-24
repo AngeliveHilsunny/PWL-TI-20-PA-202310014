@@ -35,6 +35,7 @@ const DataForm = () => {
     // const Age = currentYear - parseInt(Birthdate.slice(0, 4));
     
     var Age = new Date().getFullYear() - new Date(Birthdate).getFullYear();
+    
 
     return (
         <div className="wrapper d-flex align-items-center justify-content-center">

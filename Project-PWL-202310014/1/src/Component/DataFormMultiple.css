@@ -1,0 +1,41 @@
+.wrapper {
+    height: 100vh;
+}
+
+.fromList {
+    width: 800px;
+    height: min-content;
+    padding: 4em 2em;
+    background-color: #fff;
+    border-radius: 2em;
+    box-shadow: rgba(169, 190, 211, 0.2) 0px 8px 24px;
+}
+
+.add-button {
+    background-color: #e2f3ff !important;
+    font-size: 0.8em !important;
+    border: none;
+    color: #4777e8;
+}
+
+.data-form-input {
+    justify-content: center;
+    align-items: center;
+    margin-right: -72px;
+}
+
+.remove-button {
+    background-color: #ffe2e2 !important;
+    font-size: 10px !important;
+    border: none;
+    color: #e8476f;
+}
+
+.smaller-input {
+    font-size: 12px;
+  }
+
+.trash {
+    margin-left: -10px !important;
+    margin-right: -10px !important;
+}
