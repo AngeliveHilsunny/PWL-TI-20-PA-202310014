@@ -1,19 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import DataForm from './Component/DataForm';
 import reportWebVitals from './reportWebVitals';
-import StickyNotes from './Component/StickyNotes';
-import Widget1 from './Component//Widget1';
-import Widget1RCC from './Component/Widget1RCC';
+
+import 'bootstrap-icons/font/bootstrap-icons.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import DataFormMultiple from './Component/DataFormMultiple'
-import Form from './Component/Form';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+
+import { BrowserRouter } from 'react-router-dom';
+import AppRoute from './Component/latihan-3-1/Apps/AppRoute';
+import Login from './Component/latihan-3-1/Modules/components/Login/Login'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const {PUBLIC_URL} = process.env;
+
 root.render(
   <React.StrictMode>
-    <DataFormMultiple/>
+    <BrowserRouter basename={PUBLIC_URL}>
+      <AppRoute />
+      {/* <Login/> */}
+    </BrowserRouter>
   </React.StrictMode>
 );
 
