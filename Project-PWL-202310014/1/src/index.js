@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 import { BrowserRouter } from 'react-router-dom';
-import AppRoute from './Component/latihan-3-1/Apps/AppRoute';
+import AppRoute from './Component/Latihan-4/apps/routes/AppRoute';
 import Login from './Component/latihan-3-1/Modules/components/Login/Login'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
